@@ -11,9 +11,12 @@ import UIKit
 class LoginView: UIView {
     
     let stackView = UIStackView()
+    let bankName = "Banksey"
+    let motto = "Where the world banks"
     let usernameTextField = UITextField()
     let passwordTextField = UITextField()
     let dividerView = UIView()
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
